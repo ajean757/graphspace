@@ -1,9 +1,9 @@
 /bin/
+/.settings
 out/
 *.lib
 *.o
 8.a
-.settings
 
 # Compiled class file
 *.class
