@@ -63,6 +63,17 @@ public class Vertex {
 
 	}
 	
+	public boolean contains(Coordinate p) {
+		double xrel = Math.abs(x - p.getX());
+		double yrel = Math.abs(y - p.getY());
+		
+		double bound = (xrel * xrel) + (yrel * yrel);
+		
+		return bound <= (RADIUS * RADIUS);
+	
+
+	}
+	
 	public String toString() {
 		return "(" + x + "," + y + ")";
 	}

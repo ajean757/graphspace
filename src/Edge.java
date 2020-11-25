@@ -40,5 +40,9 @@ public class Edge {
 		return points;
 	}
 	
+	public int getNumPoints() {
+		return points.size();
+	}
+	
 	
 }

@@ -34,7 +34,7 @@ public class GraphController implements MouseListener, MouseMotionListener,
 	}
 
 	public void actionPerformed(ActionEvent e) {
-		
+
 	}
 
 	public void stateChanged(ChangeEvent e) {
@@ -119,7 +119,6 @@ public class GraphController implements MouseListener, MouseMotionListener,
 		if(currentObject.equals("edge")) {
 			panel.getEdges().add(new Edge(currentPoints));
 			currentPoints = new ArrayList<Coordinate>();
-
 		}
 	
 		
