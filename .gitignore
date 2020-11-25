@@ -1,1 +1,6 @@
 /bin/
+out/
+*.class
+*.lib
+*.o
+8.a
